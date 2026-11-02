@@ -1,0 +1,24 @@
+Experiment date: 2026-10-28 (Asia/Hong_Kong)
+OS: macOS 26.5.1 (Build 25F80), Darwin 25.5.0, arm64
+CPU: Apple M2 Pro
+Logical CPUs: 10
+RAM: 34,359,738,368 bytes (32 GiB)
+GPU: not used
+OpenFHE version: v1.4.2
+OpenFHE git commit: aa391988d354d4360f390f223a90e0d1b98839d7
+Compiler: Apple clang 15.0.0 (clang-1500.1.0.2.5)
+CMake: 4.0.1
+Ninja: 1.12.1
+Build type: Release
+OpenFHE options: WITH_OPENMP=OFF, BUILD_UNITTESTS=OFF, BUILD_EXAMPLES=OFF, BUILD_BENCHMARKS=OFF, MATHBACKEND=4
+Main latency experiment threads: 1
+Python analysis threads: default (cryptographic latency unaffected)
+CKKS security: HEStd_128_classic
+Ring dimension: 16384
+Slots/batch size: 8192
+Multiplicative depth: 3
+Scaling modulus: 50 bits
+Key switching: HYBRID
+Number of large digits: 3
+Warmups/measured repetitions: 10/50 per primitive
+Input PRNG: std::mt19937 seed 1, uniform real [-1,1]
